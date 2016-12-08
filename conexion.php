@@ -3,7 +3,7 @@ function conectar()
 {
 	mysql_connect("localhost","*******","*******");
 
-	mysql_select_db("aboutdcr_new");
+	mysql_select_db("table");
 }
 function desconectar()
 {
